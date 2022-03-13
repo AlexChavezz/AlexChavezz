@@ -28,7 +28,7 @@
                 <select name="lenguague" style="padding: 5px 10px; outline: none;">
                     <option value="spanish" style="padding: 5px;">Spanish</option>
                     <option value="english">English</option>
-                </select>   
+                </select>
             </article>
         </section>
     </header>
@@ -36,10 +36,8 @@
     <section class="banner-container">
         <img src='./public/assets/code.webp' alt="code-image" />
         <article>
-            <h2>ABOUT ME</h2>
-            <p class="about-me">Hi, I'm alexis a front-end developer. I am Currently studying university and i love the
-                development
-                world. </p>
+            <h2 class="about-me-text"></h2>
+            <p class="about-me"></p>
             <button class="resume-button-download">
                 Resume ( CV ) <br />
                 Download
@@ -49,7 +47,7 @@
     <!-- Skill-set -->
     <section class="custom-container-styles-set">
         <article>
-            <h2>SKILL-SET</h2>
+            <h2 class="section-skills-title">SKILL-SET</h2>
         </article>
         <article class="tecnologies-container">
             <article class="tecnology">
@@ -93,19 +91,28 @@
     <!-- Proyects -->
     <section class="proyects-section-container">
         <article>
-            <h2>PROYECTS</h2>
+            <h2 class="section-proyects-title">PROYECTS</h2>
         </article>
         <article class="proyects-container">
-            <section class="proyect">
+            <section class="proyect" id="giff-app">
                 <article class="image">
                     <img src="./public/assets/giphy-logo-1.webp" alt="giff-app" />
                 </article>
                 <article class="description">
                     <h3>GIF-APP</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod minima deleniti cupiditate, magni
-                        quo ex odit maiores exercitationem. Ipsam sit laudantium placeat modi aperiam animi aut
-                        voluptatum ipsum quod provident? you can test the proyect <a href=""> here </a> or see
-                        repository <a href=""> here </a></p>
+                    <p class="giff-proyect-description"></p>
+                    <ul style="list-style: square;">
+                        <li>Front-end: React, Typescript, Css3</li>
+                        <li>Back-end: Node js</li>
+                        <li>Data Base: MongoDb, Fierstore</li>
+                        <li>Deploy: Firebase Hosting (front-end), Heroku (back-end)</li>
+                    </ul>
+                    <a href="https://gif-app-89297.web.app/" target="_black">
+                        <button class="proyect-button site">Site</button>
+                    </a>
+                    <a href="https://github.com/AlexChavezz/new-gif-app" target="_blanck">
+                        <button class="proyect-button repository">Repository</button>
+                    </a>
                 </article>
             </section>
             <section class="proyect">
@@ -114,9 +121,18 @@
                 </article>
                 <article class="description">
                     <h3>JOURNAL</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod minima deleniti cupiditate, magni
-                        quo ex odit maiores exercitationem. Ipsam sit laudantium placeat modi aperiam animi aut
-                        voluptatum ipsum quod provident?</p>
+                    <p class="journal-proyect-description"></p>
+                    <ul style="list-style: square;">
+                        <li>Front-end: React, Javscript, Css3</li>
+                        <li>Data Base: Firestore</li>
+                        <li>Deploy: Firebase Hosting (front-end), Heroku (back-end)</li>
+                    </ul>
+                    <a href="https://journal-15371.web.app" target="_black">
+                        <button class="proyect-button site">Site</button>
+                    </a>
+                    <a href="https://github.com/AlexChavezz/Journal" target="_blanck">
+                        <button class="proyect-button repository">Repository</button>
+                    </a>
                 </article>
             </section>
             <section class="proyect">
@@ -125,9 +141,19 @@
                 </article>
                 <article class="description">
                     <h3>RESTAURANT APP</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod minima deleniti cupiditate, magni
-                        quo ex odit maiores exercitationem. Ipsam sit laudantium placeat modi aperiam animi aut
-                        voluptatum ipsum quod provident?</p>
+                    <p class="restaurant-proyect-description"></p>
+                    <ul style="list-style: square;">
+                        <li>Front-end: React, Javscript, Css3</li>
+                        <li>Back-end: Node js</li>
+                        <li>Data Base: Mysql</li>
+                        <li>Deploy: Heroku (back-end and front-end)</li>
+                    </ul>
+                    <a href="https://restaurante-app-k.herokuapp.com/public" target="__black">
+                        <button class="proyect-button site">Site</button>
+                    </a>
+                    <a href="https://github.com/AlexChavezz/Restaurant-App" target="__blanck">
+                        <button class="proyect-button repository">Repository</button>
+                    </a>
                 </article>
             </section>
         </article>
@@ -135,7 +161,7 @@
     <!-- Footer -->
     <footer class="footer-container-styles">
         <section class="custom-container-styles">
-            <span> CONTACT ME !</span>
+            <span class="contact-me"> CONTACT ME !</span>
             <article class="social-container">
                 <div>
                     <a href="https://www.linkedin.com/in/alexis-contreras-chavez-840810200/" target="__black">
@@ -149,8 +175,7 @@
                 </div>
             </article>
             <article>
-                <p class="footer-text"> Developed and designed by Alexis Chávez.<br />
-                    &copy; 2022 All rights reserved.</p>
+                <p class="footer-text"> </p>
             </article>
         </section>
     </footer>
