@@ -1,0 +1,216 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+/*
+    Header Styles 
+*/
+
+.header-container {
+    box-shadow: 0px 2px 2px #ccc;
+    /* position: fixed; */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.header-container .custom-container-styles {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.header-container .header-title-container {
+    align-items: center;
+    display: flex;
+}
+
+.header-container .header-title-container h1 {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.header-container .header-title {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.header-container .header-title-container img {
+    height: 25px;
+    width: 35px;
+    margin: 0px 20px;
+}
+
+/*  Navegation */
+.header-container .navegation-container {
+    display: flex;
+    align-items: center;
+}
+
+.navegation-container {
+    align-items: center;
+}
+
+.navegation-container a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px;
+    font-size: 17px;
+}
+
+.header-container .navegation a:hover {
+    color: gray;
+}
+
+/*
+    Banner Styles
+*/
+
+.banner-container {
+    background-color: rgba(139, 187, 206, 0.432);
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+    border-radius: 10px;
+    color: #202020;
+    margin: 0px auto;
+    margin-top: 50px;
+    display: flex;
+    padding: 40px 20px;
+    justify-content: center;
+    width: 1200px;
+}
+
+.banner-container article {
+    margin-left: 100px;
+}
+.banner-container article h2 {
+    margin-bottom:50px;
+}
+.resume-button-download {
+    background: #12F4C2;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: all 200ms ease-in;
+    padding: 5px 20px;
+}
+
+.resume-button-download:active {
+    transform: scale(.5);
+}
+
+/*
+    Skill-set
+*/
+
+.custom-container-styles-set {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 1200px;
+}
+
+.custom-container-styles-set h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.tecnology {
+    display: flex;
+    flex-direction: column;
+    width: 75px;
+    margin: 40px;
+}
+
+.tecnologies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.custom-container-styles-set span {
+    text-align: center;
+}
+
+/*
+    Proyects
+*/
+
+.proyects-section-container {
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.proyects-section-container h2 {
+    font-size: 20px;
+    text-align: center;
+}
+/* .proyects-section-container .proyects-container {
+    
+}  */
+.proyects-section-container .proyects-container .proyect {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;    display: flex;
+    padding: 20px;
+    margin-bottom:50px;
+}
+.proyects-section-container .proyects-container .proyect .description {
+    margin-left: 50px;   
+}
+.proyects-section-container .proyects-container .proyect .description h3 {
+    margin-bottom:10px;
+}
+
+.proyects-section-container .proyects-container .proyect .image img {
+    width: 100px;
+}
+
+
+
+/*
+    Footer
+*/
+
+.footer-container-styles {
+    min-height: 200px;
+    box-shadow: 0px -2px 2px #ccc;
+    margin: 0px auto;
+}
+.footer-container-styles span {
+    margin-top: 20px;
+}
+.footer-container-styles .custom-container-styles {
+    margin: 0px auto;
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-container {
+    margin: 30px 0px;
+    display: flex;
+}
+
+.social-container img {
+    width: 48px;
+    height: 48px;
+    margin: 5px;
+}
+
+.footer-text {
+    font-size: 13px;
+    text-align: center;
+    margin-bottom:10px;
+}
