@@ -2,7 +2,7 @@
 
 > Alexis Contreras Chavez
 <ol>
-  <li>Javascript</li>
+  <li style="backgroundcolor=red;">Javascript</li>
   <li>Typescript</li>
   <li>C#</li>
   <li>Redes</li>
