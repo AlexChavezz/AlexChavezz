@@ -3,7 +3,7 @@
 #### My name's Alexis.
 
 
-	```
+```
 {
   "firstName": "John",
   "lastName": "Smith",
