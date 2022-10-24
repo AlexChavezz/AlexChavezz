@@ -28,3 +28,9 @@ I need to highlight these ==very important words==.
 X^2^
 
 ~~The world is flat.~~
+```JavaScript
+function add(a, b){
+   return a + b;
+}
+add(3, 4);
+```
